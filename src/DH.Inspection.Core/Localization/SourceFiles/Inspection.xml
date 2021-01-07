@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="en">
+	<texts>
+		<text name="HomePage" value="主页"/>
+		<text name="About" value="About"/>
+		<text name="WelcomeMessage" value="欢迎来到ABPPhone！"/>
+		<text name="FormsNotValidMessage" value="表单无效。请检查并纠正错误。"/>
+		<text name="TenantNameCanNotBeEmpty" value="租户名称不能为空"/>
+		<text name="InvalidUserNameOrPassword" value="无效用户名或密码"/>
+		<text name="ThereIsNoTenantDefinedWithName{0}" value="没有用名称定义的租户 {0}" />
+		<text name="TenantIsNotActive" value="Tenant{0}未激活。"/>
+		<text name="UserIsNotActiveAndCanNotLogin" value="用户{0}未处于活动状态，无法登录。"/>
+		<text name="UserEmailIsNotconfirmedCannotLogin">您的电子邮件地址未确认。您无法登录。</text>
+		<text name="UserLockedOutMessage">用户帐户已被锁定。请稍后再试。</text>
+		<text name="PleaseInterLoginInformation" value="请输入登录信息"/>
+		<text name="TenancyName" value="租赁名称"/>
+		<text name="用户名或电子邮件" value="用户名或电子邮件"/>
+		<text name="Password" value="Password"/>
+		<text name="ResetPassword" value="重置密码"/>
+		<text name="UpdatePassword" value="更新密码"/>
+		<text name="RememberMe" value="记住我"/>
+		<text name="LogIn" value="登录"/>
+		<text name="LoginFailed" value="登录失败！"/>
+		<text name="NameSurname" value="name姓氏"/>
+		<text name="UserName" value="User name"/>
+		<text name="name" value="name"/>
+		<text name="Surname" value="Surname"/>
+		<text name="EmailAddress" value="电子邮件地址"/>
+		<text name="Tenants" value="Tenants"/>
+		<text name="SavedSuccessfully" value="保存成功"/>
+		<text name="CreateNewTenant" value="创建新租户"/>
+		<text name="AdminEmailAddress" value="管理电子邮件地址"/>
+		<text name="AdminPassword" value="Admin密码"/>
+		<text name="Save" value="Save"/>
+		<text name="Cancel" value="Cancel"/>
+		<text name="TenantName_Regex_Description" value="租户名称必须至少包含2个字符，以字母开头，然后以字母、数字、破折号或下划线继续。"/>
+		<text name="DefaultPasswordIs" value="默认密码是{0}"/>
+		<text name="CanbeEmptyToLoginHost" value="可以为空，以主机身份登录。"/>
+		<text name="Register" value="Register"/>
+		<text name="OrLoginWith" value="或登录"/>
+		<text name="WaitingForActivationMessage" value="您的帐户正在等待系统管理员激活。"/>
+		<text name="TenantSelection" value="租户选择"/>
+		<text name="TenantSelection_Detail" value="请选择以下租户之一。"/>
+		<text name="Logout" value="Logout"/>
+		<text name="RegisterFormUserNameInvalidMessage">请不要为用户名输入电子邮件地址。</text>
+		<text name="DatabaseConnectionString" value="数据库连接字符串"/>
+		<text name="Users" value="用户"/>
+		<text name="IsActive" value="处于活动状态"/>
+		<text name="FullName" value="全名"/>
+		<text name="CreateNewUser" value="创建新用户"/>
+		<text name="Yes" value="是"/>
+		<text name="No" value="否"/>
+		<text name="Optional" value="可选" />
+		<text name="LeaveEmptyToSwitchToHost">保留为空可切换到主机</text>
+		<text name="CurrentTenant">当前语言</text>
+		<text name="NotSelected">语言</text>
+		<text name="Change">更改</text>
+		<text name="ChangeTenant">更改租户</text>
+		<text name="MultiLevelMenu">多级菜单</text>
+		<text name="Back">返回</text>
+		<text name="SuccessfullyRegistered">注册成功</text>
+		<text name="WaitingForEmailActivation">应激活您的电子邮件地址</text>
+		<text name="Roles">角色</text>
+		<text name="DisplayName">显示名称</text>
+		<text name="Edit">编辑</text>
+		<text name="Delete">删除</text>
+		<text name="CreateNewRole">创建新角色</text>
+		<text name="RoleName">角色名</text>
+		<text name="Actions">操作</text>
+		<text name="CouldNotCompleteLoginOperation">无法完成登录操作。请稍后再试。</text>
+		<text name="CouldNotValidateExternalUser">无法验证外部用户</text>
+		<text name="EditRole">编辑角色</text>
+		<text name="EditTenant">编辑租户</text>
+		<text name="EditUser">编辑用户</text>
+		<text name="TenantIdIsNotActive{0}">TenantId{0}未处于活动状态</text>
+		<text name="unknowntenanti{0}">未知tenantId{0}</text>
+		<text name="ThisFieldIsRequired">此字段是必需的</text>
+		<text name="PleaseWait">请稍候…</text>
+		<text name="Administration">管理</text>
+		<text name="ClearAll">全部清除</text>
+		<text name="ClearOthers">清除其他人</text>
+		<text name="LabelOptions">标签选项</text>
+		<text name="Permissions">权限</text>
+		<text name="RoleDescription">角色描述</text>
+		<text name="Refresh">刷新</text>
+		<text name="Create">创建</text>
+		<text name="UserDetails">用户详细信息</text>
+		<text name="UserRoles">用户角色</text>
+		<text name="ConfirmPassword">确认密码</text>
+		<text name="Version">版本</text>
+		<text name="On">开启</text>
+		<text name="Off">关闭</text>
+		<text name="AreYouSureWantToDelete">是否确实要删除{0}？</text>
+		<text name="successfullydeletted">删除成功</text>
+		<text name="StartTyping">开始键入</text>
+		<text name="Skins">外观</text>
+		<text name="Settings">设置</text>
+		<text name="Filter">过滤器</text>
+		<text name="CurrentPassword">当前密码</text>
+		<text name="NewPassword">新密码</text>
+		<text name="ConfirmNewPassword">确认新密码</text>
+		<text name="PasswordsDoNotMatch">密码不匹配</text>
+		<text name="PasswordsMustBeAtLeast8CharactersContainLowercaseUppercaseNumber">密码必须至少包含8个字符，包括小写、大写和数字</text>
+		<text name="UserDeleteWarningMessage">用户{0}将被删除。</text>
+		<text name="RoleDeleteWarningMessage">角色{0}将被删除并从所有分配的用户取消分配。</text>
+		<text name="TenantDeleteWarningMessage">租户{0}将被删除。</text>
+		<text name="SearchWithThreeDot">搜索…</text>
+		<text name="pleaseenternatLeastCharacter">请至少输入{0}个字符</text>
+		<text name="pleaseenternomorethanCharacter">请输入不超过{0}个字符</text>
+		<text name="InvalidEmailAddress">无效的电子邮件地址</text>
+		<text name="InvalidPattern">无效</text>
+		<text name="PairsDoNotMatch">不匹配</text>
+		<text name="All">全部</text>
+		<text name="TotalRecordsCount">总计：{0}</text>
+		<text name="Search">搜索</text>
+		<text name="Clear">清除</text>
+		<text name="ResetPasswordStepOneInfo">1。输入管理员密码</text>
+		<text name="ResetPasswordStepTwoInfo">2。复制此随机密码，以便将其发送给用户</text>
+		<text name="UsersActivation">用户激活</text>
+		<text name="xitong">系统管理</text>
+	</texts>
+</localizationDictionary>
