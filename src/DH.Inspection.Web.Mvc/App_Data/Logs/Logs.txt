@@ -14420,3 +14420,53 @@ INFO  2021-01-07 14:30:06,789 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics -
 INFO  2021-01-07 14:30:06,820 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=vgPlvlzqzR8FgQhLzwL9Vg  
 INFO  2021-01-07 14:30:06,827 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
 DEBUG 2021-01-07 14:30:06,953 [8    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"vgPlvlzqzR8FgQhLzwL9Vg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-01-07T14:30:06.8629011+08:00","Properties":{}}
+DEBUG 2021-01-07 14:41:04,174 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-01-07 14:41:04,219 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-01-07 14:41:04,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.Web.Startup.InspectionWebMvcModule, DH.Inspection.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.InspectionWebCoreModule, DH.Inspection.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,258 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.InspectionApplicationModule, DH.Inspection.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,259 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.InspectionCoreModule, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,259 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,260 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,260 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,261 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,262 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.EntityFrameworkCore.InspectionEntityFrameworkModule, DH.Inspection.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,263 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,263 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:04,270 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-01-07 14:41:04,370 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-01-07 14:41:04,370 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-01-07 14:41:04,370 [1    ] o.Configuration.LanguageManagementConfig - Converted Inspection (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-01-07 14:41:04,370 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-01-07 14:41:05,090 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DH.Inspection.EntityFrameworkCore.InspectionDbContext, DH.Inspection.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-07 14:41:06,012 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-01-07 14:41:06,189 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-01-07 14:41:06,309 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-01-07 14:41:06,363 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Inspection
+DEBUG 2021-01-07 14:41:06,447 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-01-07 14:41:06,592 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-07 14:41:06,660 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DH.Inspection.MultiTenancy.Tenant, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DH.Inspection.Authorization.Users.User, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-01-07 14:41:06,758 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2021-01-07 14:41:06,759 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-01-07 14:41:06,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Users.Dto.CreateUserDto
+DEBUG 2021-01-07 14:41:06,777 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Users.Dto.UserDto
+DEBUG 2021-01-07 14:41:06,778 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-01-07 14:41:06,778 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-01-07 14:41:06,779 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Roles.Dto.PermissionDto
+DEBUG 2021-01-07 14:41:06,779 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-01-07 14:41:06,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.MultiTenancy.Dto.TenantDto
+DEBUG 2021-01-07 14:41:06,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2021-01-07 14:41:06,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Web.Models.Roles.EditRoleModalViewModel
+INFO  2021-01-07 14:41:12,810 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2021-01-07 14:41:13,470 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-01-07 14:41:13,580 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2021-01-07 14:41:16,275 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2021-01-07 14:41:16,307 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2021-01-07 14:41:16,313 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2734.0409ms 200 application/json
+INFO  2021-01-07 14:41:16,323 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=8RDm7weh3EraG1PtmSGPRQ  
+INFO  2021-01-07 14:41:16,340 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2021-01-07 14:41:16,616 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"8RDm7weh3EraG1PtmSGPRQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-01-07T14:41:16.4115082+08:00","Properties":{}}
