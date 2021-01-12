@@ -36,7 +36,7 @@ namespace DH.Inspection.EntityFrameworkCore.Seed.Host
                 adminRoleForHost = _context.Roles.Add(new Role(null, StaticRoleNames.Host.Admin, StaticRoleNames.Host.Admin) { IsStatic = true, IsDefault = true }).Entity;
                 _context.SaveChanges();
             }
-
+            
             // Grant all permissions to admin role for host
 
             var grantedPermissions = _context.Permissions.IgnoreQueryFilters()
@@ -66,6 +66,8 @@ namespace DH.Inspection.EntityFrameworkCore.Seed.Host
             }
 
             // Admin user for host
+            var taskPermissions = PermissionFinder.GetAllPermissions(new InspectionAuthorizationProvider()).ToList();
+            permissions.AddRange(taskPermissions);
 
             var adminUserForHost = _context.Users.IgnoreQueryFilters().FirstOrDefault(u => u.TenantId == null && u.UserName == AbpUserBase.AdminUserName);
             if (adminUserForHost == null)
