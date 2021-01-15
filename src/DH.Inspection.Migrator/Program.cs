@@ -36,7 +36,7 @@ namespace DH.Inspection.Migrator
                     }
                     else
                     {
-                        Console.WriteLine("Press ENTER to exit...");
+                        Console.WriteLine("按回车退出...");
                         Console.ReadLine();
                     }
                 }

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DH.Inspection.Migrations
 {
-    public partial class Init : Migration
+    public partial class Update01 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

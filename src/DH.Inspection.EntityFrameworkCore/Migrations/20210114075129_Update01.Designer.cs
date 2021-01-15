@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DH.Inspection.Migrations
 {
     [DbContext(typeof(InspectionDbContext))]
-    [Migration("20201216033602_Init")]
-    partial class Init
+    [Migration("20210114075129_Update01")]
+    partial class Update01
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
