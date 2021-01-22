@@ -1,14 +1,10 @@
-﻿using Abp.Domain.Entities.Auditing;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DH.Inspection.Inspections
+namespace DH.Inspection.Inspections.Dto
 {
-    /// <summary>
-    /// 巡检
-    /// </summary>
-    public class Inspections : AuditedEntity
+    public class CreateInspectionsDto
     {
         /// <summary>
         /// 名字

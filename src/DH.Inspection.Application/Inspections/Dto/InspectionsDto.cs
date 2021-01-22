@@ -1,14 +1,15 @@
-﻿using Abp.Domain.Entities.Auditing;
+﻿using Abp.Application.Services.Dto;
+using Abp.AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DH.Inspection.Inspections
+namespace DH.Inspection.Inspections.Dto
 {
     /// <summary>
     /// 巡检
     /// </summary>
-    public class Inspections : AuditedEntity
+    public class InspectionsDto : EntityDto<int>
     {
         /// <summary>
         /// 名字
@@ -18,5 +19,7 @@ namespace DH.Inspection.Inspections
         /// 名字
         /// </summary>
         public string phone { get; set; }
+
+
     }
 }

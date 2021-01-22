@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DH.Inspection.Migrations
 {
-    public partial class Update01 : Migration
+    public partial class update01 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -441,6 +441,20 @@ namespace DH.Inspection.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AbpWebhookSubscriptions", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Inspections",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    name = table.Column<string>(nullable: true),
+                    phone = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Inspections", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -1298,6 +1312,9 @@ namespace DH.Inspection.Migrations
 
             migrationBuilder.DropTable(
                 name: "AbpWebhookSubscriptions");
+
+            migrationBuilder.DropTable(
+                name: "Inspections");
 
             migrationBuilder.DropTable(
                 name: "AbpDynamicEntityProperties");
