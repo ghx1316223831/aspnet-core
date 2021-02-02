@@ -19,4 +19,20 @@ namespace DH.Inspection.Inspections
         /// </summary>
         public string phone { get; set; }
     }
+
+    /// <summary>
+    /// 巡检
+    /// </summary>
+    public class Inspection : FullAuditedEntity<string>
+    {
+        /// <summary>
+        /// 名字
+        /// </summary>
+        public string name { get; set; }
+        /// <summary>
+        /// 名字
+        /// </summary>
+        public string phone { get; set; }
+    }
+
 }

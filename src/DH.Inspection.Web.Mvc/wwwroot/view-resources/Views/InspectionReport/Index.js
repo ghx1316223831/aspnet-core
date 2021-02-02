@@ -54,7 +54,7 @@
                 sortable: false
             },
             {
-                targets: 4,
+                targets: 3,
                 data: null,
                 sortable: false,
                 autoWidth: false,

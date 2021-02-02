@@ -10,5 +10,10 @@ namespace DH.Inspection.Inspections
 
 
     }
+    public interface IIInspectionsAppServer : IAsyncCrudAppService<IInspectionsDto, string, PagedInspectionsResultRequestDto, IInspectionsDto, IInspectionsDto>
+    {
+
+
+    }
 }
  
