@@ -28,7 +28,7 @@ namespace DH.Inspection
             var user = await UserManager.FindByIdAsync(AbpSession.GetUserId().ToString());
             if (user == null)
             {
-                throw new Exception("There is no current user!");
+                throw new Exception("没有当前用户!");
             }
 
             return user;

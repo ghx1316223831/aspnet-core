@@ -39,23 +39,23 @@ namespace DH.Inspection.Migrator
             var hostConnStr = CensorConnectionString(_connectionStringResolver.GetNameOrConnectionString(new ConnectionStringResolveArgs(MultiTenancySides.Host)));
             if (hostConnStr.IsNullOrWhiteSpace())
             {
-                _log.Write("Configuration file should contain a connection string named 'Default'");
+                _log.Write("配置文件应包含名为“Default”的连接字符串 ");
                 return false;
             }
 
             _log.Write("Host database: " + ConnectionStringHelper.GetConnectionString(hostConnStr));
             if (!skipConnVerification)
             {
-                _log.Write("Continue to migration for this host database and all tenants..? (Y/N): ");
+                _log.Write("继续迁移此主机数据库和所有租户。。？（是/否）：");
                 var command = Console.ReadLine();
                 if (!command.IsIn("Y", "y"))
                 {
-                    _log.Write("Migration canceled.");
+                    _log.Write("迁移已取消.");
                     return false;
                 }
             }
 
-            _log.Write("HOST database migration started...");
+            _log.Write("主机数据库迁移已启动...");
 
             try
             {
@@ -63,13 +63,13 @@ namespace DH.Inspection.Migrator
             }
             catch (Exception ex)
             {
-                _log.Write("An error occured during migration of host database:");
+                _log.Write("迁移主机数据库时出错:");
                 _log.Write(ex.ToString());
-                _log.Write("Canceled migrations.");
+                _log.Write("已取消迁移.");
                 return false;
             }
 
-            _log.Write("HOST database migration completed.");
+            _log.Write("主机数据库迁移已完成.");
             _log.Write("--------------------------------------------------------");
 
             var migratedDatabases = new HashSet<string>();
@@ -77,7 +77,7 @@ namespace DH.Inspection.Migrator
             for (var i = 0; i < tenants.Count; i++)
             {
                 var tenant = tenants[i];
-                _log.Write(string.Format("Tenant database migration started... ({0} / {1})", (i + 1), tenants.Count));
+                _log.Write(string.Format("租户数据库迁移已启动... ({0} / {1})", (i + 1), tenants.Count));
                 _log.Write("Name              : " + tenant.Name);
                 _log.Write("TenancyName       : " + tenant.TenancyName);
                 _log.Write("Tenant Id         : " + tenant.Id);
@@ -91,19 +91,19 @@ namespace DH.Inspection.Migrator
                     }
                     catch (Exception ex)
                     {
-                        _log.Write("An error occured during migration of tenant database:");
+                        _log.Write("迁移租户数据库时出错:");
                         _log.Write(ex.ToString());
-                        _log.Write("Skipped this tenant and will continue for others...");
+                        _log.Write("已跳过此租户，并将为其他租户继续...");
                     }
 
                     migratedDatabases.Add(tenant.ConnectionString);
                 }
                 else
                 {
-                    _log.Write("This database has already migrated before (you have more than one tenant in same database). Skipping it....");
+                    _log.Write("此数据库以前已迁移（同一数据库中有多个租户）。跳过它....");
                 }
 
-                _log.Write(string.Format("Tenant database migration completed. ({0} / {1})", (i + 1), tenants.Count));
+                _log.Write(string.Format("租户数据库迁移已完成. ({0} / {1})", (i + 1), tenants.Count));
                 _log.Write("--------------------------------------------------------");
             }
 

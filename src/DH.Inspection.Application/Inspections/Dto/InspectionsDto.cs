@@ -1,16 +1,19 @@
-﻿using Abp.Domain.Entities.Auditing;
+﻿using Abp.Application.Services.Dto;
+using Abp.AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DH.Inspection.Inspections
+namespace DH.Inspection.Inspections.Dto
 {
     /// <summary>
     /// 巡检
     /// </summary>
-    public class Inspections : AuditedEntity
+    [AutoMap(typeof(Inspections))]
+
+    public class InspectionsDto : EntityDto<int>
     {
-        /// <summary>
+        /// <summary>                                                           
         /// 名字
         /// </summary>
         public string name { get; set; }
@@ -18,14 +21,13 @@ namespace DH.Inspection.Inspections
         /// 名字
         /// </summary>
         public string phone { get; set; }
+
+
     }
 
-    /// <summary>
-    /// 巡检
-    /// </summary>
-    public class Inspection : FullAuditedEntity<string>
+    public class IInspectionsDto : FullAuditedEntityDto<string>
     {
-        /// <summary>
+        /// <summary>                                                           
         /// 名字
         /// </summary>
         public string name { get; set; }
@@ -33,6 +35,7 @@ namespace DH.Inspection.Inspections
         /// 名字
         /// </summary>
         public string phone { get; set; }
-    }
 
+
+    }
 }

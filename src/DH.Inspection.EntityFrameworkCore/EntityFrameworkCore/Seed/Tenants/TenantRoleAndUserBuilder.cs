@@ -66,6 +66,9 @@ namespace DH.Inspection.EntityFrameworkCore.Seed.Tenants
                 );
                 _context.SaveChanges();
             }
+           
+            var taskPermissions = PermissionFinder.GetAllPermissions(new InspectionAuthorizationProvider()).ToList();
+            permissions.AddRange(taskPermissions);
 
             // Admin user
 

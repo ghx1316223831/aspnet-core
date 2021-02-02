@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DH.Inspection.Migrations
 {
     [DbContext(typeof(InspectionDbContext))]
-    [Migration("20201216033602_Init")]
-    partial class Init
+    [Migration("20210122074541_update02")]
+    partial class update02
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -1481,6 +1481,35 @@ namespace DH.Inspection.Migrations
                     b.HasIndex("TenantId", "NormalizedUserName");
 
                     b.ToTable("AbpUsers");
+                });
+
+            modelBuilder.Entity("DH.Inspection.Inspections.Inspections", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("CreatorUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime?>("LastModificationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("LastModifierUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("name")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<string>("phone")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Inspections");
                 });
 
             modelBuilder.Entity("DH.Inspection.MultiTenancy.Tenant", b =>
