@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DH.Inspection.Migrations
 {
     [DbContext(typeof(InspectionDbContext))]
-    [Migration("20210121081123_update01")]
+    [Migration("20210205052449_update01")]
     partial class update01
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -1488,6 +1488,18 @@ namespace DH.Inspection.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("CreatorUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime?>("LastModificationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("LastModifierUserId")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("name")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");

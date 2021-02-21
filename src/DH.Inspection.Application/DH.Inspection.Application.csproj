@@ -11,6 +11,9 @@
     <RootNamespace>DH.Inspection</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.5.2" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\DH.Inspection.Core\DH.Inspection.Core.csproj" />
   </ItemGroup>
 </Project>

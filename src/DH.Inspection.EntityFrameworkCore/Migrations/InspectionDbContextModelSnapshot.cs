@@ -1510,6 +1510,21 @@ namespace DH.Inspection.Migrations
                     b.ToTable("Inspections");
                 });
 
+            modelBuilder.Entity("DH.Inspection.Line.LineInfo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("LineID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LineName")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("LineInfo");
+                });
+
             modelBuilder.Entity("DH.Inspection.MultiTenancy.Tenant", b =>
                 {
                     b.Property<int>("Id")

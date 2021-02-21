@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DH.Inspection.Migrations
 {
     [DbContext(typeof(InspectionDbContext))]
-    [Migration("20210122074541_update02")]
-    partial class update02
+    [Migration("20210207023816_Update02")]
+    partial class Update02
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -1510,6 +1510,21 @@ namespace DH.Inspection.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Inspections");
+                });
+
+            modelBuilder.Entity("DH.Inspection.Line.LineInfo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("LineID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LineName")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("LineInfo");
                 });
 
             modelBuilder.Entity("DH.Inspection.MultiTenancy.Tenant", b =>
