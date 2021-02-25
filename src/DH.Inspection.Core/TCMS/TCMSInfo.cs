@@ -9,5 +9,6 @@ namespace DH.Inspection.TCMS
     /// </summary>
     public class TCMSInfo
     {
+
     }
 }

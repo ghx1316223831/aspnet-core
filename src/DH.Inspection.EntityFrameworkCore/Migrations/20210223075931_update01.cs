@@ -462,6 +462,19 @@ namespace DH.Inspection.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "LineInfo",
+                columns: table => new
+                {
+                    LineID = table.Column<int>(maxLength: 4, nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    LineName = table.Column<string>(maxLength: 128, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_LineInfo", x => x.LineID);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "AbpDynamicEntityProperties",
                 columns: table => new
                 {
@@ -1319,6 +1332,9 @@ namespace DH.Inspection.Migrations
 
             migrationBuilder.DropTable(
                 name: "Inspections");
+
+            migrationBuilder.DropTable(
+                name: "LineInfo");
 
             migrationBuilder.DropTable(
                 name: "AbpDynamicEntityProperties");

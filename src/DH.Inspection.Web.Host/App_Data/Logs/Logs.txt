@@ -357,3 +357,91 @@ INFO  2021-01-22 15:50:53,961 [14   ] .Mvc.Infrastructure.ObjectResultExecutor -
 INFO  2021-01-22 15:50:53,979 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Inspections.InspectionsAppServer.GetAllAsync (DH.Inspection.Application) in 615.4547ms
 INFO  2021-01-22 15:50:53,984 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Inspections.InspectionsAppServer.GetAllAsync (DH.Inspection.Application)'
 INFO  2021-01-22 15:50:53,989 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 662.041ms 200 application/json; charset=utf-8
+DEBUG 2021-02-23 16:05:30,328 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-02-23 16:05:30,619 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-02-23 16:05:30,671 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.Web.Host.Startup.InspectionWebHostModule, DH.Inspection.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,678 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.InspectionWebCoreModule, DH.Inspection.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.InspectionApplicationModule, DH.Inspection.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.InspectionCoreModule, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.EntityFrameworkCore.InspectionEntityFrameworkModule, DH.Inspection.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:30,701 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-02-23 16:05:30,984 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-23 16:05:30,984 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-23 16:05:30,985 [1    ] o.Configuration.LanguageManagementConfig - Converted Inspection (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-23 16:05:30,985 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-23 16:05:31,932 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DH.Inspection.EntityFrameworkCore.InspectionDbContext, DH.Inspection.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-23 16:05:34,255 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-02-23 16:05:34,526 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-02-23 16:05:34,642 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-02-23 16:05:34,691 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Inspection
+DEBUG 2021-02-23 16:05:34,789 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-02-23 16:05:35,327 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-02-23 16:05:35,674 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DH.Inspection.MultiTenancy.Tenant, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DH.Inspection.Authorization.Users.User, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-02-23 16:05:35,815 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2021-02-23 16:05:35,816 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-02-23 16:05:35,829 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Users.Dto.CreateUserDto
+DEBUG 2021-02-23 16:05:35,830 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Users.Dto.UserDto
+DEBUG 2021-02-23 16:05:35,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-02-23 16:05:35,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-02-23 16:05:35,831 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Roles.Dto.PermissionDto
+DEBUG 2021-02-23 16:05:35,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-02-23 16:05:35,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.MultiTenancy.Dto.TenantDto
+DEBUG 2021-02-23 16:05:35,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Line.Dto.LineInfoDto
+DEBUG 2021-02-23 16:05:35,833 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Inspections.Dto.InspectionsDto
+INFO  2021-02-23 16:05:45,170 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2021-02-23 16:05:45,991 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\小苟\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-02-23 16:05:46,176 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2021-02-23 16:05:46,452 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Web.Host.Controllers.HomeController.Index (DH.Inspection.Web.Host)'
+INFO  2021-02-23 16:05:51,608 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DH.Inspection.Web.Host.Controllers.HomeController (DH.Inspection.Web.Host).
+INFO  2021-02-23 16:05:52,877 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-02-23 16:05:52,885 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Web.Host.Controllers.HomeController.Index (DH.Inspection.Web.Host) in 1269.9746ms
+INFO  2021-02-23 16:05:52,888 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Web.Host.Controllers.HomeController.Index (DH.Inspection.Web.Host)'
+INFO  2021-02-23 16:05:52,908 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6736.6948ms 302 
+INFO  2021-02-23 16:05:52,912 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2021-02-23 16:05:52,964 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.5518ms 301 
+INFO  2021-02-23 16:05:52,968 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-02-23 16:05:53,020 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.8359ms 200 text/html;charset=utf-8
+INFO  2021-02-23 16:05:53,173 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2021-02-23 16:05:53,176 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2021-02-23 16:05:53,182 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2021-02-23 16:05:53,188 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2021-02-23 16:05:53,192 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2021-02-23 16:05:53,217 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\小苟\Desktop\DH.Inspection\aspnet-core\src\DH.Inspection.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2021-02-23 16:05:53,217 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\小苟\Desktop\DH.Inspection\aspnet-core\src\DH.Inspection.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2021-02-23 16:05:53,220 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.2833ms 200 application/javascript
+INFO  2021-02-23 16:05:53,222 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.9602ms 200 application/javascript
+INFO  2021-02-23 16:05:53,232 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2021-02-23 16:05:53,234 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2021-02-23 16:05:53,244 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2021-02-23 16:05:53,248 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 72.479ms 200 application/javascript
+INFO  2021-02-23 16:05:53,251 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 77.6572ms 200 text/css
+INFO  2021-02-23 16:05:53,254 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 72.6057ms 200 application/javascript
+INFO  2021-02-23 16:05:53,634 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-02-23 16:05:53,644 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Web.Host.Controllers.AntiForgeryController.SetCookie (DH.Inspection.Web.Host)'
+INFO  2021-02-23 16:05:53,661 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DH.Inspection.Web.Host.Controllers.AntiForgeryController (DH.Inspection.Web.Host).
+INFO  2021-02-23 16:05:53,702 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-23 16:05:53,709 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-02-23 16:05:53,761 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2021-02-23 16:05:53,766 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2021-02-23 16:05:53,769 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.0938ms 200 image/png
+INFO  2021-02-23 16:05:53,859 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Web.Host.Controllers.AntiForgeryController.SetCookie (DH.Inspection.Web.Host) in 194.7492ms
+INFO  2021-02-23 16:05:53,862 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Web.Host.Controllers.AntiForgeryController.SetCookie (DH.Inspection.Web.Host)'
+INFO  2021-02-23 16:05:53,865 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 232.0653ms 200 application/json; charset=utf-8
+INFO  2021-02-23 16:05:53,905 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 196.1495ms 200 application/json;charset=utf-8
+INFO  2021-02-23 16:06:07,556 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/LineInfoAppServer/GetAll?MaxResultCount=1&SkipCount=10  
+INFO  2021-02-23 16:06:07,563 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Line.LineInfoAppServer.GetAllAsync (DH.Inspection.Application)'
+INFO  2021-02-23 16:06:07,590 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "LineInfoAppServer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[DH.Inspection.Line.Dto.LineInfoDto]] GetAllAsync(Abp.Application.Services.Dto.PagedResultRequestDto) on controller DH.Inspection.Line.LineInfoAppServer (DH.Inspection.Application).
+INFO  2021-02-23 16:06:08,330 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-23 16:06:08,345 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Line.LineInfoAppServer.GetAllAsync (DH.Inspection.Application) in 752.7211ms
+INFO  2021-02-23 16:06:08,349 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Line.LineInfoAppServer.GetAllAsync (DH.Inspection.Application)'
+INFO  2021-02-23 16:06:08,352 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 796.3214ms 200 application/json; charset=utf-8
