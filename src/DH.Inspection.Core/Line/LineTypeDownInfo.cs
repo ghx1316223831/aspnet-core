@@ -56,13 +56,13 @@ namespace DH.Inspection.Line
         /// </summary>
         [MaxLength(4)]
         [Required]
-        public Double StartMark { get; set; }
+        public double StartMark { get; set; }
 
         /// <summary>
         /// 结束公里标
         /// </summary>
         [MaxLength(4)]
         [Required]
-        public Double EndMark { get; set; }
+        public double EndMark { get; set; }
     }
 }

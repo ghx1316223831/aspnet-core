@@ -10,13 +10,23 @@ namespace DH.Inspection.RFID
     /// </summary>
     public class RFIDRealInfo
     {
+        /// <summary>
+        /// 时间戳
+        /// </summary>
         [MaxLength(8)]//最大长度
         [Required]//必须填字段
         public long TcmsTimeStamp { get; set; }
 
+        /// <summary>
+        /// 电子标签名称
+        /// </summary>
         [MaxLength(128)]//最大长度
         [Required]//必须填字段
         public string RFIDName { get; set; }
+
+        /// <summary>
+        /// 当前列基础信息唯一代码
+        /// </summary>
         [MaxLength(36)]//最大长度
         [Required]//必须填字段
         public string TrainOperation { get; set; }

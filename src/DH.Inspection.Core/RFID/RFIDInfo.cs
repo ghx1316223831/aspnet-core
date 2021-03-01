@@ -47,7 +47,7 @@ namespace DH.Inspection.RFID
         /// </summary>
         [MaxLength(4)]
         [Required]
-        public Double Mark { get; set; }
+        public double Mark { get; set; }
         /// <summary>
         /// 备用字段
         /// </summary>
