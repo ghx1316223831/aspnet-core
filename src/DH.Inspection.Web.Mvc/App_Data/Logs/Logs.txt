@@ -14470,3 +14470,427 @@ INFO  2021-01-07 14:41:16,313 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics -
 INFO  2021-01-07 14:41:16,323 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=8RDm7weh3EraG1PtmSGPRQ  
 INFO  2021-01-07 14:41:16,340 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
 DEBUG 2021-01-07 14:41:16,616 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"8RDm7weh3EraG1PtmSGPRQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-01-07T14:41:16.4115082+08:00","Properties":{}}
+DEBUG 2021-03-04 15:26:19,173 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-03-04 15:26:19,395 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-03-04 15:26:19,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.Web.Startup.InspectionWebMvcModule, DH.Inspection.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,489 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.InspectionWebCoreModule, DH.Inspection.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,490 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.InspectionApplicationModule, DH.Inspection.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.InspectionCoreModule, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.EntityFrameworkCore.InspectionEntityFrameworkModule, DH.Inspection.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:19,507 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-03-04 15:26:19,750 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-03-04 15:26:19,750 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-03-04 15:26:19,750 [1    ] o.Configuration.LanguageManagementConfig - Converted Inspection (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-03-04 15:26:19,750 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-03-04 15:26:21,972 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DH.Inspection.EntityFrameworkCore.InspectionDbContext, DH.Inspection.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:26:25,183 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-03-04 15:26:25,465 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-03-04 15:26:25,593 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-03-04 15:26:25,656 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Inspection
+DEBUG 2021-03-04 15:26:25,735 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-03-04 15:26:26,309 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-03-04 15:26:26,685 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DH.Inspection.MultiTenancy.Tenant, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DH.Inspection.Authorization.Users.User, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-03-04 15:26:26,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2021-03-04 15:26:26,843 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-03-04 15:26:26,868 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Users.Dto.CreateUserDto
+DEBUG 2021-03-04 15:26:26,870 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Users.Dto.UserDto
+DEBUG 2021-03-04 15:26:26,871 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-03-04 15:26:26,872 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-03-04 15:26:26,872 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Roles.Dto.PermissionDto
+DEBUG 2021-03-04 15:26:26,873 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-03-04 15:26:26,873 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.MultiTenancy.Dto.TenantDto
+DEBUG 2021-03-04 15:26:26,874 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2021-03-04 15:26:26,874 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Web.Models.Roles.EditRoleModalViewModel
+INFO  2021-03-04 15:26:33,970 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2021-03-04 15:26:35,778 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\小苟\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-03-04 15:26:39,366 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2021-03-04 15:26:39,921 [4    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2021-03-04 15:26:39,948 [4    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2021-03-04 15:26:39,988 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 622.9408ms 302 
+INFO  2021-03-04 15:26:40,067 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/Account/Login?ReturnUrl=%2F  
+INFO  2021-03-04 15:26:40,098 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Web.Controllers.AccountController.Login (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:26:48,938 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller DH.Inspection.Web.Controllers.AccountController (DH.Inspection.Web.Mvc).
+INFO  2021-03-04 15:26:53,176 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+WARN  2021-03-04 15:26:53,746 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserNameOrEmail' in localization source 'Inspection'!
+INFO  2021-03-04 15:26:54,050 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 907.6538ms.
+INFO  2021-03-04 15:26:54,054 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Web.Controllers.AccountController.Login (DH.Inspection.Web.Mvc) in 5113.7165ms
+INFO  2021-03-04 15:26:54,058 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Web.Controllers.AccountController.Login (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:26:54,071 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14007.6627ms 200 text/html; charset=utf-8
+INFO  2021-03-04 15:26:54,143 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637504683866908838  
+INFO  2021-03-04 15:26:54,146 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637504683866908838  
+INFO  2021-03-04 15:26:54,169 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:26:54,169 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:26:54,190 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2021-03-04 15:26:54,194 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2021-03-04 15:26:54,350 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:26:54,355 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2021-03-04 15:26:54,358 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 161.7607ms
+INFO  2021-03-04 15:26:54,361 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:26:54,384 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 166.4813ms
+INFO  2021-03-04 15:26:54,388 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:26:54,390 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 243.7865ms 200 application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:26:54,392 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 255.2036ms 200 application/x-javascript
+INFO  2021-03-04 15:26:57,706 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 256
+INFO  2021-03-04 15:26:57,713 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Web.Controllers.AccountController.Login (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:26:57,732 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(DH.Inspection.Web.Models.Account.LoginViewModel, System.String, System.String) on controller DH.Inspection.Web.Controllers.AccountController (DH.Inspection.Web.Mvc).
+INFO  2021-03-04 15:26:58,352 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2021-03-04 15:26:58,381 [7    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-03-04 15:26:58,397 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Web.Controllers.AccountController.Login (DH.Inspection.Web.Mvc) in 662.0592ms
+INFO  2021-03-04 15:26:58,401 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Web.Controllers.AccountController.Login (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:26:58,407 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 698.7617ms 200 application/json; charset=utf-8
+INFO  2021-03-04 15:26:58,425 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2021-03-04 15:26:58,483 [11   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2021-03-04 15:26:58,487 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Web.Controllers.HomeController.Index (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:26:58,493 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DH.Inspection.Web.Controllers.HomeController (DH.Inspection.Web.Mvc).
+INFO  2021-03-04 15:26:58,552 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2021-03-04 15:26:58,951 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+INFO  2021-03-04 15:26:59,101 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 553.1036ms.
+INFO  2021-03-04 15:26:59,106 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Web.Controllers.HomeController.Index (DH.Inspection.Web.Mvc) in 609.9835ms
+INFO  2021-03-04 15:26:59,108 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Web.Controllers.HomeController.Index (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:26:59,115 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 687.0257ms 200 text/html; charset=utf-8
+INFO  2021-03-04 15:26:59,152 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/js/abp.dataTable.js?v=HXGDlSZ4vGf_z1sxCqIcXOjtjRQqNumczKCQ0Oh7qv8  
+INFO  2021-03-04 15:26:59,155 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637504683866908838  
+INFO  2021-03-04 15:26:59,159 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637504683866908838  
+INFO  2021-03-04 15:26:59,175 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:26:59,178 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:26:59,184 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2021-03-04 15:26:59,186 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2021-03-04 15:26:59,195 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2021-03-04 15:26:59,201 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 10.6808ms
+INFO  2021-03-04 15:26:59,205 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:26:59,210 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.2423ms 200 application/x-javascript
+INFO  2021-03-04 15:26:59,226 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/abp.dataTable.js'. Physical path: 'C:\Users\小苟\Desktop\DH.Inspection\aspnet-core\src\DH.Inspection.Web.Mvc\wwwroot\js\abp.dataTable.js'
+INFO  2021-03-04 15:26:59,232 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 77.4801ms 200 application/javascript
+WARN  2021-03-04 15:26:59,256 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+INFO  2021-03-04 15:26:59,311 [17   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:26:59,315 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 124.1332ms
+INFO  2021-03-04 15:26:59,321 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:26:59,326 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 166.8224ms 200 application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:26:59,335 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2021-03-04 15:26:59,349 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:26:59,375 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:26:59,378 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.1454ms 200 application/json
+INFO  2021-03-04 15:26:59,389 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=R8RT5yqV8kUQgw7U_wSrxg  
+INFO  2021-03-04 15:26:59,400 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2021-03-04 15:26:59,853 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"R8RT5yqV8kUQgw7U_wSrxg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-04T15:26:59.8409823+08:00","Properties":{}}
+DEBUG 2021-03-04 15:26:59,871 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: R8RT5yqV8kUQgw7U_wSrxg
+INFO  2021-03-04 15:27:01,391 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/Roles  
+INFO  2021-03-04 15:27:01,406 [12   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2021-03-04 15:27:01,409 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Web.Controllers.RolesController.Index (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:27:01,419 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller DH.Inspection.Web.Controllers.RolesController (DH.Inspection.Web.Mvc).
+WARN  2021-03-04 15:27:01,703 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+WARN  2021-03-04 15:27:01,703 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Home' in localization source 'Inspection'!
+INFO  2021-03-04 15:27:01,763 [18   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2021-03-04 15:27:01,848 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+INFO  2021-03-04 15:27:01,899 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 139.9006ms.
+INFO  2021-03-04 15:27:01,903 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Web.Controllers.RolesController.Index (DH.Inspection.Web.Mvc) in 479.6568ms
+INFO  2021-03-04 15:27:01,906 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Web.Controllers.RolesController.Index (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:27:01,911 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 518.4601ms 200 text/html; charset=utf-8
+DEBUG 2021-03-04 15:27:01,930 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: R8RT5yqV8kUQgw7U_wSrxg
+INFO  2021-03-04 15:27:01,936 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637504683866908838  
+INFO  2021-03-04 15:27:01,938 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637504683866908838  
+INFO  2021-03-04 15:27:01,960 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:27:01,964 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:27:01,967 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2021-03-04 15:27:01,972 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2581.6955ms 101 
+INFO  2021-03-04 15:27:01,976 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2021-03-04 15:27:01,979 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2021-03-04 15:27:01,986 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2021-03-04 15:27:01,992 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 7.3756ms
+INFO  2021-03-04 15:27:01,996 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:27:02,000 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 65.6284ms 200 application/x-javascript
+INFO  2021-03-04 15:27:02,008 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2021-03-04 15:27:02,018 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:27:02,023 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:27:02,027 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17.6399ms 200 application/json
+INFO  2021-03-04 15:27:02,031 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=uncD5BDF19kgpz9MfL4Vtg  
+INFO  2021-03-04 15:27:02,041 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+WARN  2021-03-04 15:27:02,045 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+DEBUG 2021-03-04 15:27:02,047 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"uncD5BDF19kgpz9MfL4Vtg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-04T15:27:02.0477659+08:00","Properties":{}}
+DEBUG 2021-03-04 15:27:02,048 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: uncD5BDF19kgpz9MfL4Vtg
+INFO  2021-03-04 15:27:02,052 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:27:02,055 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 74.725ms
+INFO  2021-03-04 15:27:02,059 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:27:02,063 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 128.7551ms 200 application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:27:02,125 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/api/services/app/Role/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2021-03-04 15:27:02,135 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Roles.RoleAppService.GetAllAsync (DH.Inspection.Application)'
+INFO  2021-03-04 15:27:02,145 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[DH.Inspection.Roles.Dto.RoleDto]] GetAllAsync(DH.Inspection.Roles.Dto.PagedRoleResultRequestDto) on controller DH.Inspection.Roles.RoleAppService (DH.Inspection.Application).
+INFO  2021-03-04 15:27:02,337 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-03-04 15:27:02,360 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Roles.RoleAppService.GetAllAsync (DH.Inspection.Application) in 212.686ms
+INFO  2021-03-04 15:27:02,368 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Roles.RoleAppService.GetAllAsync (DH.Inspection.Application)'
+INFO  2021-03-04 15:27:02,374 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 246.2896ms 200 application/json; charset=utf-8
+INFO  2021-03-04 15:27:05,528 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/api/services/app/Role/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2021-03-04 15:27:05,542 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Roles.RoleAppService.GetAllAsync (DH.Inspection.Application)'
+INFO  2021-03-04 15:27:05,546 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[DH.Inspection.Roles.Dto.RoleDto]] GetAllAsync(DH.Inspection.Roles.Dto.PagedRoleResultRequestDto) on controller DH.Inspection.Roles.RoleAppService (DH.Inspection.Application).
+INFO  2021-03-04 15:27:05,583 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-03-04 15:27:05,587 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Roles.RoleAppService.GetAllAsync (DH.Inspection.Application) in 37.3914ms
+INFO  2021-03-04 15:27:05,590 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Roles.RoleAppService.GetAllAsync (DH.Inspection.Application)'
+INFO  2021-03-04 15:27:05,594 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 66.2885ms 200 application/json; charset=utf-8
+DEBUG 2021-03-04 15:27:49,635 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: uncD5BDF19kgpz9MfL4Vtg
+INFO  2021-03-04 15:27:49,638 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+DEBUG 2021-03-04 15:27:49,639 [2    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+INFO  2021-03-04 15:27:49,641 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47610.4947ms 101 
+DEBUG 2021-03-04 15:27:49,644 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-03-04 15:27:49,645 [2    ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DH.Inspection.MultiTenancy.Tenant, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DH.Inspection.Authorization.Users.User, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-03-04 15:27:49,657 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-03-04 15:27:49,658 [2    ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DH.Inspection.MultiTenancy.Tenant, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DH.Inspection.Authorization.Users.User, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-03-04 15:27:49,660 [2    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+INFO  2021-03-04 15:27:49,660 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2021-03-04 15:27:49,675 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:27:49,678 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:27:49,680 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.0282ms 200 application/json
+DEBUG 2021-03-04 15:46:48,211 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-03-04 15:46:48,391 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-03-04 15:46:48,414 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.Web.Startup.InspectionWebMvcModule, DH.Inspection.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.InspectionWebCoreModule, DH.Inspection.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.InspectionApplicationModule, DH.Inspection.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.InspectionCoreModule, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DH.Inspection.EntityFrameworkCore.InspectionEntityFrameworkModule, DH.Inspection.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:48,431 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-03-04 15:46:48,602 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-03-04 15:46:48,602 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-03-04 15:46:48,602 [1    ] o.Configuration.LanguageManagementConfig - Converted Inspection (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-03-04 15:46:48,602 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-03-04 15:46:49,643 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DH.Inspection.EntityFrameworkCore.InspectionDbContext, DH.Inspection.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-03-04 15:46:51,692 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-03-04 15:46:51,785 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-03-04 15:46:51,847 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-03-04 15:46:51,870 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Inspection
+DEBUG 2021-03-04 15:46:51,903 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-03-04 15:46:52,153 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-03-04 15:46:52,304 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DH.Inspection.MultiTenancy.Tenant, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DH.Inspection.Authorization.Users.User, DH.Inspection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-03-04 15:46:52,357 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2021-03-04 15:46:52,357 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-03-04 15:46:52,363 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Users.Dto.CreateUserDto
+DEBUG 2021-03-04 15:46:52,364 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Users.Dto.UserDto
+DEBUG 2021-03-04 15:46:52,364 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-03-04 15:46:52,364 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-03-04 15:46:52,364 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Roles.Dto.PermissionDto
+DEBUG 2021-03-04 15:46:52,364 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-03-04 15:46:52,365 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.MultiTenancy.Dto.TenantDto
+DEBUG 2021-03-04 15:46:52,365 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2021-03-04 15:46:52,365 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DH.Inspection.Web.Models.Roles.EditRoleModalViewModel
+INFO  2021-03-04 15:46:54,862 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2021-03-04 15:46:55,387 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\小苟\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-03-04 15:46:59,703 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2021-03-04 15:46:59,850 [5    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2021-03-04 15:46:59,857 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2021-03-04 15:46:59,864 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 161.8293ms 302 
+INFO  2021-03-04 15:46:59,891 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/Account/Login?ReturnUrl=%2F  
+INFO  2021-03-04 15:46:59,897 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Web.Controllers.AccountController.Login (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:47:04,142 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller DH.Inspection.Web.Controllers.AccountController (DH.Inspection.Web.Mvc).
+INFO  2021-03-04 15:47:07,866 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+WARN  2021-03-04 15:47:08,377 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'UserNameOrEmail' in localization source 'Inspection'!
+INFO  2021-03-04 15:47:08,637 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 801.7087ms.
+INFO  2021-03-04 15:47:08,641 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Web.Controllers.AccountController.Login (DH.Inspection.Web.Mvc) in 4496.0785ms
+INFO  2021-03-04 15:47:08,643 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Web.Controllers.AccountController.Login (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:47:08,651 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8760.2724ms 200 text/html; charset=utf-8
+INFO  2021-03-04 15:47:08,694 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637504696123059182  
+INFO  2021-03-04 15:47:08,697 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637504696123059182  
+INFO  2021-03-04 15:47:08,706 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:08,708 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:08,721 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2021-03-04 15:47:08,725 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2021-03-04 15:47:08,846 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:47:08,849 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2021-03-04 15:47:08,853 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 124.948ms
+INFO  2021-03-04 15:47:08,858 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 128.7186ms
+INFO  2021-03-04 15:47:08,860 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:08,863 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:08,866 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 172.1756ms 200 application/x-javascript
+INFO  2021-03-04 15:47:08,868 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 172.1778ms 200 application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:47:10,503 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 256
+INFO  2021-03-04 15:47:10,510 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Web.Controllers.AccountController.Login (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:47:10,526 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(DH.Inspection.Web.Models.Account.LoginViewModel, System.String, System.String) on controller DH.Inspection.Web.Controllers.AccountController (DH.Inspection.Web.Mvc).
+INFO  2021-03-04 15:47:11,011 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2021-03-04 15:47:11,047 [12   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-03-04 15:47:11,063 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Web.Controllers.AccountController.Login (DH.Inspection.Web.Mvc) in 534.2337ms
+INFO  2021-03-04 15:47:11,067 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Web.Controllers.AccountController.Login (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:47:11,075 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 572.2428ms 200 application/json; charset=utf-8
+INFO  2021-03-04 15:47:11,086 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2021-03-04 15:47:11,131 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2021-03-04 15:47:11,133 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Web.Controllers.HomeController.Index (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:47:11,140 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DH.Inspection.Web.Controllers.HomeController (DH.Inspection.Web.Mvc).
+INFO  2021-03-04 15:47:11,175 [8    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2021-03-04 15:47:11,544 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+INFO  2021-03-04 15:47:11,670 [8    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 500.419ms.
+INFO  2021-03-04 15:47:11,676 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Web.Controllers.HomeController.Index (DH.Inspection.Web.Mvc) in 533.3962ms
+INFO  2021-03-04 15:47:11,679 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Web.Controllers.HomeController.Index (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:47:11,684 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 597.3169ms 200 text/html; charset=utf-8
+INFO  2021-03-04 15:47:11,730 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/js/abp.dataTable.js?v=HXGDlSZ4vGf_z1sxCqIcXOjtjRQqNumczKCQ0Oh7qv8  
+INFO  2021-03-04 15:47:11,734 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637504696123059182  
+INFO  2021-03-04 15:47:11,739 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637504696123059182  
+INFO  2021-03-04 15:47:11,743 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/chartjs/dist/Chart.js?v=nZaxPHA2uAaquixjSDX19TmIlbRNCOrf5HO1oHl5p70  
+INFO  2021-03-04 15:47:11,750 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:11,755 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:11,758 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2021-03-04 15:47:11,762 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2021-03-04 15:47:11,765 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/chartjs/dist/Chart.js was not modified
+INFO  2021-03-04 15:47:11,767 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/abp.dataTable.js was not modified
+INFO  2021-03-04 15:47:11,771 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2021-03-04 15:47:11,775 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 13.6097ms
+INFO  2021-03-04 15:47:11,778 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:11,781 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.4134ms 304 application/javascript
+INFO  2021-03-04 15:47:11,784 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.0989ms 200 application/x-javascript
+INFO  2021-03-04 15:47:11,788 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 34.9252ms 304 application/javascript
+WARN  2021-03-04 15:47:11,814 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+INFO  2021-03-04 15:47:11,858 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2021-03-04 15:47:11,864 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:47:11,872 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 100.7767ms
+INFO  2021-03-04 15:47:11,886 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:11,891 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:47:11,894 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 156.1646ms 200 application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:47:11,910 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:47:11,914 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 58.3523ms 200 application/json
+INFO  2021-03-04 15:47:11,924 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=Gphqy2Q-CasiTqjrb1fcSA  
+INFO  2021-03-04 15:47:11,934 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2021-03-04 15:47:12,073 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"Gphqy2Q-CasiTqjrb1fcSA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-04T15:47:12.063107+08:00","Properties":{}}
+DEBUG 2021-03-04 15:47:12,087 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: Gphqy2Q-CasiTqjrb1fcSA
+INFO  2021-03-04 15:47:12,807 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/About  
+INFO  2021-03-04 15:47:12,839 [13   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2021-03-04 15:47:12,848 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Web.Controllers.AboutController.Index (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:47:12,867 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "About", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DH.Inspection.Web.Controllers.AboutController (DH.Inspection.Web.Mvc).
+INFO  2021-03-04 15:47:12,956 [16   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2021-03-04 15:47:13,080 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+INFO  2021-03-04 15:47:13,108 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 165.1531ms.
+INFO  2021-03-04 15:47:13,113 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Web.Controllers.AboutController.Index (DH.Inspection.Web.Mvc) in 239.2258ms
+INFO  2021-03-04 15:47:13,126 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Web.Controllers.AboutController.Index (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:47:13,157 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 334.3647ms 200 text/html; charset=utf-8
+INFO  2021-03-04 15:47:13,190 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637504696123059182  
+INFO  2021-03-04 15:47:13,196 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637504696123059182  
+DEBUG 2021-03-04 15:47:13,206 [8    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: Gphqy2Q-CasiTqjrb1fcSA
+INFO  2021-03-04 15:47:13,275 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:13,285 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:13,299 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2021-03-04 15:47:13,307 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2021-03-04 15:47:13,322 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2021-03-04 15:47:13,339 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 15.1785ms
+INFO  2021-03-04 15:47:13,352 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:13,363 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2021-03-04 15:47:13,370 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 178.6987ms 200 application/x-javascript
+INFO  2021-03-04 15:47:13,376 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1444.3008ms 101 
+WARN  2021-03-04 15:47:13,421 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+INFO  2021-03-04 15:47:13,430 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:47:13,436 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 131.176ms
+INFO  2021-03-04 15:47:13,445 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:13,459 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 263.7192ms 200 application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:47:13,558 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2021-03-04 15:47:13,589 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:47:13,614 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:47:13,622 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 61.7647ms 200 application/json
+INFO  2021-03-04 15:47:13,639 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=3J-eMxtiRh_tIGUKJn4YFg  
+INFO  2021-03-04 15:47:13,653 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2021-03-04 15:47:13,664 [20   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"3J-eMxtiRh_tIGUKJn4YFg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-04T15:47:13.6643957+08:00","Properties":{}}
+DEBUG 2021-03-04 15:47:13,665 [20   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 3J-eMxtiRh_tIGUKJn4YFg
+INFO  2021-03-04 15:47:14,980 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/Roles  
+INFO  2021-03-04 15:47:15,003 [5    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2021-03-04 15:47:15,008 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Web.Controllers.RolesController.Index (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:47:15,030 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller DH.Inspection.Web.Controllers.RolesController (DH.Inspection.Web.Mvc).
+WARN  2021-03-04 15:47:15,584 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+WARN  2021-03-04 15:47:15,585 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Home' in localization source 'Inspection'!
+INFO  2021-03-04 15:47:15,642 [20   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2021-03-04 15:47:15,798 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+INFO  2021-03-04 15:47:15,828 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 193.6381ms.
+INFO  2021-03-04 15:47:15,836 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Web.Controllers.RolesController.Index (DH.Inspection.Web.Mvc) in 797.4726ms
+INFO  2021-03-04 15:47:15,842 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Web.Controllers.RolesController.Index (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:47:15,850 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 870.4428ms 200 text/html; charset=utf-8
+DEBUG 2021-03-04 15:47:15,855 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 3J-eMxtiRh_tIGUKJn4YFg
+INFO  2021-03-04 15:47:15,865 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2021-03-04 15:47:15,879 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2232.8719ms 101 
+INFO  2021-03-04 15:47:15,899 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637504696123059182  
+INFO  2021-03-04 15:47:15,905 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637504696123059182  
+INFO  2021-03-04 15:47:15,921 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:15,928 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:15,935 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2021-03-04 15:47:15,941 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2021-03-04 15:47:15,950 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2021-03-04 15:47:15,957 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 9.1585ms
+INFO  2021-03-04 15:47:15,962 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:15,968 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.3515ms 200 application/x-javascript
+WARN  2021-03-04 15:47:16,010 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+INFO  2021-03-04 15:47:16,018 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:47:16,023 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 82.8881ms
+INFO  2021-03-04 15:47:16,030 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:16,036 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 136.8142ms 200 application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:47:16,052 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2021-03-04 15:47:16,088 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:47:16,095 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:47:16,102 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.3913ms 200 application/json
+INFO  2021-03-04 15:47:16,190 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/api/services/app/Role/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2021-03-04 15:47:16,205 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Roles.RoleAppService.GetAllAsync (DH.Inspection.Application)'
+INFO  2021-03-04 15:47:16,223 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[DH.Inspection.Roles.Dto.RoleDto]] GetAllAsync(DH.Inspection.Roles.Dto.PagedRoleResultRequestDto) on controller DH.Inspection.Roles.RoleAppService (DH.Inspection.Application).
+INFO  2021-03-04 15:47:16,380 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=-2TFGY3ZaiUp_cO9MeRhvA  
+INFO  2021-03-04 15:47:16,398 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2021-03-04 15:47:16,409 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"-2TFGY3ZaiUp_cO9MeRhvA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-04T15:47:16.4093761+08:00","Properties":{}}
+DEBUG 2021-03-04 15:47:16,411 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: -2TFGY3ZaiUp_cO9MeRhvA
+INFO  2021-03-04 15:47:16,611 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-03-04 15:47:16,659 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Roles.RoleAppService.GetAllAsync (DH.Inspection.Application) in 430.9627ms
+INFO  2021-03-04 15:47:16,665 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Roles.RoleAppService.GetAllAsync (DH.Inspection.Application)'
+INFO  2021-03-04 15:47:16,671 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 479.7166ms 200 application/json; charset=utf-8
+INFO  2021-03-04 15:47:21,258 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/Users  
+INFO  2021-03-04 15:47:21,282 [11   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2021-03-04 15:47:21,288 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Web.Controllers.UsersController.Index (DH.Inspection.Web.Mvc)'
+INFO  2021-03-04 15:47:21,303 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller DH.Inspection.Web.Controllers.UsersController (DH.Inspection.Web.Mvc).
+INFO  2021-03-04 15:47:21,928 [18   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2021-03-04 15:47:21,982 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Inspection'!
+WARN  2021-03-04 15:47:22,059 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+INFO  2021-03-04 15:47:22,090 [17   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 167.8878ms.
+INFO  2021-03-04 15:47:22,096 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Web.Controllers.UsersController.Index (DH.Inspection.Web.Mvc) in 787.9498ms
+INFO  2021-03-04 15:47:22,104 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Web.Controllers.UsersController.Index (DH.Inspection.Web.Mvc)'
+DEBUG 2021-03-04 15:47:22,105 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: -2TFGY3ZaiUp_cO9MeRhvA
+INFO  2021-03-04 15:47:22,111 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 853.592ms 200 text/html; charset=utf-8
+INFO  2021-03-04 15:47:22,117 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2021-03-04 15:47:22,123 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5743.1136ms 101 
+INFO  2021-03-04 15:47:22,143 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637504696123059182  
+INFO  2021-03-04 15:47:22,147 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637504696123059182  
+INFO  2021-03-04 15:47:22,162 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:22,168 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:22,174 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2021-03-04 15:47:22,179 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2021-03-04 15:47:22,189 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2021-03-04 15:47:22,195 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 13.2367ms
+INFO  2021-03-04 15:47:22,200 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:22,206 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 63.0154ms 200 application/x-javascript
+WARN  2021-03-04 15:47:22,236 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'InspectionReport' in localization source 'Inspection'!
+INFO  2021-03-04 15:47:22,242 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:47:22,248 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 63.8378ms
+INFO  2021-03-04 15:47:22,254 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2021-03-04 15:47:22,259 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 116.0712ms 200 application/x-javascript; charset=utf-8
+INFO  2021-03-04 15:47:22,275 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2021-03-04 15:47:22,290 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:47:22,298 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2021-03-04 15:47:22,307 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.2728ms 200 application/json
+INFO  2021-03-04 15:47:22,328 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=Sz-QWsUdpTgozztIhlQI6g  
+INFO  2021-03-04 15:47:22,350 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2021-03-04 15:47:22,410 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/api/services/app/User/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2021-03-04 15:47:22,432 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DH.Inspection.Users.UserAppService.GetAllAsync (DH.Inspection.Application)'
+INFO  2021-03-04 15:47:22,452 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[DH.Inspection.Users.Dto.UserDto]] GetAllAsync(DH.Inspection.Users.Dto.PagedUserResultRequestDto) on controller DH.Inspection.Users.UserAppService (DH.Inspection.Application).
+DEBUG 2021-03-04 15:47:22,458 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"Sz-QWsUdpTgozztIhlQI6g","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-03-04T15:47:22.4580542+08:00","Properties":{}}
+DEBUG 2021-03-04 15:47:22,459 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: Sz-QWsUdpTgozztIhlQI6g
+INFO  2021-03-04 15:47:22,761 [20   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-03-04 15:47:22,787 [20   ] c.Infrastructure.ControllerActionInvoker - Executed action DH.Inspection.Users.UserAppService.GetAllAsync (DH.Inspection.Application) in 328.323ms
+INFO  2021-03-04 15:47:22,792 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DH.Inspection.Users.UserAppService.GetAllAsync (DH.Inspection.Application)'
+INFO  2021-03-04 15:47:22,797 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 387.6397ms 200 application/json; charset=utf-8
+DEBUG 2021-03-04 15:47:24,154 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: Sz-QWsUdpTgozztIhlQI6g
+INFO  2021-03-04 15:47:24,163 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2021-03-04 15:47:24,174 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1841.1743ms 101 
