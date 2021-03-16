@@ -11,5 +11,10 @@ namespace DH.Inspection.Web.Models.Roles
         {
             return GrantedPermissionNames.Contains(permission.Name);
         }
+        public bool HasPermission(DH.Inspection.Authorization.Permissions.Dto.FlatPermissionWithLevelDto permissionsTree)
+        {
+            return GrantedPermissionNames.Contains(permissionsTree.Name);
+        }
+
     }
 }

@@ -15,24 +15,24 @@
 		<text name="PleaseInterLoginInformation" value="请输入登录信息"/>
 		<text name="TenancyName" value="租赁名称"/>
 		<text name="用户名或电子邮件" value="用户名或电子邮件"/>
-		<text name="Password" value="Password"/>
+		<text name="Password" value="密码"/>
 		<text name="ResetPassword" value="重置密码"/>
 		<text name="UpdatePassword" value="更新密码"/>
 		<text name="RememberMe" value="记住我"/>
 		<text name="LogIn" value="登录"/>
 		<text name="LoginFailed" value="登录失败！"/>
-		<text name="NameSurname" value="name姓氏"/>
-		<text name="UserName" value="User name"/>
-		<text name="name" value="name"/>
-		<text name="Surname" value="Surname"/>
+		<text name="NameSurname" value="姓氏"/>
+		<text name="UserName" value="用户名称"/>
+		<text name="name" value="名字"/>
+		<text name="Surname" value="姓"/>
 		<text name="EmailAddress" value="电子邮件地址"/>
-		<text name="Tenants" value="Tenants"/>
+		<text name="Tenants" value="租户"/>
 		<text name="SavedSuccessfully" value="保存成功"/>
 		<text name="CreateNewTenant" value="创建新租户"/>
 		<text name="AdminEmailAddress" value="管理电子邮件地址"/>
 		<text name="AdminPassword" value="Admin密码"/>
-		<text name="Save" value="Save"/>
-		<text name="Cancel" value="Cancel"/>
+		<text name="Save" value="保存" />
+    <text name="Cancel" value="关闭" />
 		<text name="TenantName_Regex_Description" value="租户名称必须至少包含2个字符，以字母开头，然后以字母、数字、破折号或下划线继续。"/>
 		<text name="DefaultPasswordIs" value="默认密码是{0}"/>
 		<text name="CanbeEmptyToLoginHost" value="可以为空，以主机身份登录。"/>
@@ -41,7 +41,6 @@
 		<text name="WaitingForActivationMessage" value="您的帐户正在等待系统管理员激活。"/>
 		<text name="TenantSelection" value="租户选择"/>
 		<text name="TenantSelection_Detail" value="请选择以下租户之一。"/>
-		<text name="Logout" value="Logout"/>
 		<text name="RegisterFormUserNameInvalidMessage">请不要为用户名输入电子邮件地址。</text>
 		<text name="DatabaseConnectionString" value="数据库连接字符串"/>
 		<text name="Users" value="用户"/>
@@ -117,6 +116,16 @@
 		<text name="ResetPasswordStepOneInfo">1。输入管理员密码</text>
 		<text name="ResetPasswordStepTwoInfo">2。复制此随机密码，以便将其发送给用户</text>
 		<text name="UsersActivation">用户激活</text>
-		<text name="xitong">系统管理</text>
-	</texts>
+    <text name="System">系统管理</text>
+    <text name="Home">首页</text>
+    <text name="InspectionReport">巡检</text>
+    <text name="UserNameOrEmail" value="电子邮件名称" />
+    <text name="Logout" value="退出" />
+
+    <text name="DataAcquisitionModule" value="数据采集模块" />
+    <text name="Images" value="图片数据采集" />
+    <text name="TCMS" value="TCMS数据采集" />
+    
+
+  </texts>
 </localizationDictionary>

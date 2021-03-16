@@ -48,7 +48,7 @@ namespace DH.Inspection.EntityFrameworkCore.Seed.Tenants
                 .ToList();
 
             var permissions = PermissionFinder
-                .GetAllPermissions(new InspectionAuthorizationProvider())
+                .GetAllPermissions(new InspectionAuthorizationProvider(true))
                 .Where(p => p.MultiTenancySides.HasFlag(MultiTenancySides.Tenant) &&
                             !grantedPermissions.Contains(p.Name))
                 .ToList();

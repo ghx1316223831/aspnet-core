@@ -1,0 +1,61 @@
+WARN  2021-03-10 11:33:58,803 [4    ] naries.DictionaryBasedLocalizationSource - Can not find '权限系统' in localization source 'Inspection'!
+WARN  2021-03-10 11:33:59,346 [13   ] naries.DictionaryBasedLocalizationSource - Can not find '权限系统' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:03,450 [4    ] naries.DictionaryBasedLocalizationSource - Can not find '权限系统' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:03,719 [10   ] naries.DictionaryBasedLocalizationSource - Can not find '权限系统' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:10,544 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:10,545 [5    ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:10,632 [5    ] naries.DictionaryBasedLocalizationSource - Can not find '权限系统' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:10,784 [4    ] naries.DictionaryBasedLocalizationSource - Can not find '权限系统' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:12,021 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:12,025 [5    ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:12,026 [5    ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:12,065 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:12,066 [13   ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:16,016 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:16,017 [17   ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:16,019 [17   ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:16,035 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:16,035 [16   ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:59,302 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:59,303 [28   ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:59,304 [28   ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:59,319 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Inspection'!
+WARN  2021-03-10 11:34:59,319 [5    ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 13:11:54,165 [61   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Inspection'!
+WARN  2021-03-10 13:11:54,165 [61   ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 13:11:54,243 [61   ] naries.DictionaryBasedLocalizationSource - Can not find '权限系统' in localization source 'Inspection'!
+WARN  2021-03-10 13:11:54,370 [60   ] naries.DictionaryBasedLocalizationSource - Can not find '权限系统' in localization source 'Inspection'!
+WARN  2021-03-10 13:14:20,568 [4    ] Mvc.ExceptionHandling.AbpExceptionFilter - 角色名111111已被占用.
+Abp.UI.UserFriendlyException: 角色名111111已被占用.
+   at Abp.Authorization.Roles.AbpRoleManager`2.CheckDuplicateRoleNameAsync(Nullable`1 expectedRoleId, String name, String displayName)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Authorization.Roles.AbpRoleManager`2.CreateAsync(TRole role)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at DH.Inspection.Roles.RoleAppService.CreateAsync(CreateRoleDto input) in C:\Users\小苟\Desktop\DH.Inspection\aspnet-core\src\DH.Inspection.Application\Roles\RoleAppService.cs:line 45
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+WARN  2021-03-10 13:15:01,601 [50   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Inspection'!
+WARN  2021-03-10 13:15:01,601 [50   ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 13:15:01,676 [94   ] naries.DictionaryBasedLocalizationSource - Can not find '权限系统' in localization source 'Inspection'!
+WARN  2021-03-10 13:15:01,796 [92   ] naries.DictionaryBasedLocalizationSource - Can not find '权限系统' in localization source 'Inspection'!
+WARN  2021-03-10 13:15:16,480 [60   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Inspection'!
+WARN  2021-03-10 13:15:16,480 [60   ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 13:15:16,481 [60   ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-10 13:15:16,494 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Inspection'!
+WARN  2021-03-10 13:15:16,495 [4    ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-11 09:58:31,259 [78   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Inspection'!
+WARN  2021-03-11 09:58:31,260 [78   ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-11 09:58:31,260 [78   ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!
+WARN  2021-03-11 09:58:31,269 [58   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Inspection'!
+WARN  2021-03-11 09:58:31,270 [58   ] naries.DictionaryBasedLocalizationSource - Can not find '系统权限' in localization source 'Inspection'!

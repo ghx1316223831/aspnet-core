@@ -32,7 +32,7 @@ namespace DH.Inspection.Web.Controllers
 
         public async Task<ActionResult> EditModal(int roleId)
         {
-            var output = await _roleAppService.GetRoleForEdit(new EntityDto(roleId));
+            var output = await _roleAppService.GetRoleForEdit1(new EntityDto(roleId));
             var model = ObjectMapper.Map<EditRoleModalViewModel>(output);
 
             return PartialView("_EditModal", model);

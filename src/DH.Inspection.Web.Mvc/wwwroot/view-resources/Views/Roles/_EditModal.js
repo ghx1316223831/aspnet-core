@@ -18,7 +18,6 @@
                 role.grantedPermissions.push(_$permissionCheckbox.val());
             }
         }
-
         abp.ui.setBusy(_$form);
         _roleService.update(role).done(function () {
             _$modal.modal('hide');
